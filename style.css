@@ -1,6 +1,7 @@
 body{
   background-image: url("https://img.freepik.com/premium-photo/generative-ai-illustration-colored-suitcases-prepared_58460-26218.jpg?size=626&ext=jpg&ga=GA1.1.1496814605.1712802709&semt=ais");
   background-repeat: no-repeat;
+  background-size: contain;
   background-size: cover;
 }
 *{
