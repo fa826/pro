@@ -4,7 +4,9 @@
 }
 
 body{
-  background-image: url("https://img.freepik.com/free-photo/blank-paper-summer-things-light-surface_23-2148149469.jpg?size=626&ext=jpg&ga=GA1.2.1496814605.1712802709&semt=ais");
+  background-image: url("https://img.freepik.com/premium-photo/generative-ai-illustration-colored-suitcases-prepared_58460-26218.jpg?size=626&ext=jpg&ga=GA1.1.1496814605.1712802709&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .heading{
@@ -13,6 +15,10 @@ body{
   background-position: center;
   background-size: cover;
   position: relative; 
+}
+
+.heading nav a{
+  padding: 0px 0px 10px 10px;
 }
 
 nav{
@@ -55,7 +61,7 @@ nav{
   font-weight: 900;
   font-style: normal;
   font-size: 20px;
-  color: #a53860;
+  color: #583101;
 }
 
 nav img{
