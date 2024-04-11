@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+body{
+  background-image: url("https://img.freepik.com/free-photo/blank-paper-summer-things-light-surface_23-2148149469.jpg?size=626&ext=jpg&ga=GA1.2.1496814605.1712802709&semt=ais");
+}
+
+.heading{
+  min-height: 100vh;
+  width: 100%
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+}
+
 nav{
   display: flex;
   padding: 3% 10% 10% 20%;
@@ -10,9 +22,9 @@ nav{
   justify-content: space-between;
   align-items: center;
   height: 100px;  
-  font-family: "Swanky and Moo Moo", cursive;
-  font-weight: 1000;
-  font-size: 25px;
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-style: normal;
 }
 
@@ -29,7 +41,7 @@ nav{
   font-family: "Spinnaker", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #936639;
+  color: #450920;
 }
 
 .text h1{
@@ -38,17 +50,23 @@ nav{
 
 .text p{
   margin: 10px 0 40px;
-  font-size: 14px;
-  color: #C2C5AA;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  color: #a53860;
 }
 
 nav img{
   width: 150px;
+  
 }
 
 .nav-links{
   flex:1;
   text-align: right;
+  font-size: 20px;
 }
 .nav-links ul li{
   list-style: none;
@@ -67,7 +85,7 @@ nav img{
   content: '';
   width: 0%;
   height: 2px;
-  background: #A4AC86;
+  background: #a53860;
   display: block;
   margin: auto;
 }
@@ -79,18 +97,42 @@ nav img{
 .button{
   display: inline-block;
   text-decoration: none;
-  color: #C2C5AA;
+  color: #640d14;
   border: 1px solid #414833;
   padding: 12px 34px;
   font-size: 13px;
+  font-weight: 100px;
   background: transparent;
   position: relative;
   cursor: pointer;
 }
 
 .button:hover{
-  border: 1px solid #414833;
-  background: #656D4A;
+  border: 1px solid #a53860;
+  background: #a53860;
   transition: 1s;
 }
+
+footer {
+    display: flex;
+    padding: 0px 10px;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+
 
