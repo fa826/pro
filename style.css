@@ -18,11 +18,12 @@ nav{
 
 .text{
   width: 90%;
-  padding: 100px;
+  padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
   bottom: 0;
   overflow: auto;
   font-family: "Spinnaker", sans-serif;
@@ -31,9 +32,19 @@ nav{
   color: #936639;
 }
 
-/* nav img{
+.text h1{
+  font-size: 62px;
+}
+
+.text p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #C2C5AA;
+}
+
+nav img{
   width: 150px;
-} */
+}
 
 .nav-links{
   flex:1;
@@ -65,24 +76,21 @@ nav{
   width: 100%;
 }
 
-footer {
-    display: flex;
+.button{
+  display: inline-block;
+  text-decoration: none;
+  color: #C2C5AA;
+  border: 1px solid #414833;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
 
-  }
-  footer .stats {
-    display: flex;
-    font-size: 15px;
-  }
-  footer .stats strong {
-    font-size: 18px;
-  }
-  footer .stats .likes {
-    margin-left: 10px;
-  }
-  footer .cta {
-    margin-left: auto;
-  }
-  footer .cta button {
-    border: 0;
-    background: transparent;
-  }
+.button:hover{
+  border: 1px solid #414833;
+  background: #656D4A;
+  transition: 1s;
+}
+
